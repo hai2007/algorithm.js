@@ -66,7 +66,7 @@ import algorithm from '@hai2007/algorithm';
 或
 
 ```html
-<script src='https://cdn.jsdelivr.net/npm/@hai2007/algorithm'></script>
+<script src='https://cdn.jsdelivr.net/npm/@hai2007/algorithm@0'></script>
 ```
 
 如果是node.js环境，请使用这种方式引入：
