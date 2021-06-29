@@ -46,10 +46,12 @@ while (begin.length > 0) {
 
                 if (dist[j - 1] == -1 || newValue < dist[j - 1]) {
                     dist[j - 1] = newValue;
+
+                    // 到达的新结点作为下次的起点
+                    // （如果新到达的结点不优于原来的，也不用作为新结点）
+                    newBegin.push(j);
                 }
 
-                // 到达的新结点作为下次的起点
-                newBegin.push(j);
             }
 
         }
