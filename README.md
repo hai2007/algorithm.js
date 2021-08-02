@@ -66,7 +66,7 @@ import algorithm from '@hai2007/algorithm';
 或
 
 ```html
-<script src='https://cdn.jsdelivr.net/npm/@hai2007/algorithm'></script>
+<script src='https://cdn.jsdelivr.net/npm/@hai2007/algorithm@0'></script>
 ```
 
 如果是node.js环境，请使用这种方式引入：
@@ -97,7 +97,7 @@ const algorithm = require('@hai2007/algorithm');
 
 4）通过计算最优值时刻意记录的判断结果来构造最优解。
 
-可以使用该算法思想设计算法的问题一般会具有二个决定性的性质：
+可以使用该算法思想设计算法的问题一般会具有两个决定性的性质：
 
 1）最优子结构性质；
 
@@ -111,7 +111,7 @@ const algorithm = require('@hai2007/algorithm');
 
 一般来说，当一个问题的所有子问题都至少要解一次时，用动态规划比备忘录要好，因为不会有任务暂存且没有多余的计算；当子问题空间中部分问题不必解时，用备忘录比较好。
 
-不过上面不是绝对的，这样说只是想区别一下二个思想的不同，具体的时候还是要根据业务场景来在保证可行的前提下选择更好的方法。
+不过上面不是绝对的，这样说只是想区别一下两个思想的不同，具体的时候还是要根据业务场景来在保证可行的前提下选择更好的方法。
 
 [<< 查看例子代码](./workbook/备忘录算法)
 
